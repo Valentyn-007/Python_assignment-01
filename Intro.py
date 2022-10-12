@@ -1,4 +1,3 @@
-import pyfiglet
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
@@ -12,5 +11,5 @@ inp_first_num = int(First_num)
 inp_second_num = int(Second_num)
 result = inp_first_num + inp_second_num
 
-print(Back.CYAN + "Your answer is: " + str(result))
+print(Fore.RED + Back.CYAN + "Your answer is: " + str(result))
 print("Have a wonderful day!")
