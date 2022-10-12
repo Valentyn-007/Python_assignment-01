@@ -1,7 +1,7 @@
 import pyfiglet
 import colorama
 from colorama import Fore, Back, Style
-colorama.init()
+colorama.init(autoreset=True)
 
 print("Hey you! Welcome to Python. I see you want to perform a calculation. Let's do this!")
 
@@ -12,5 +12,5 @@ inp_first_num = int(First_num)
 inp_second_num = int(Second_num)
 result = inp_first_num + inp_second_num
 
-print(Fore.RED + "Your answer is: " + str(result))
+print(Back.CYAN + "Your answer is: " + str(result))
 print("Have a wonderful day!")
