@@ -1,4 +1,3 @@
-import imp
 import pyfiglet
 import colorama
 from colorama import Fore, Back, Style
