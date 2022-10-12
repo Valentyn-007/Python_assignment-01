@@ -1,8 +1,12 @@
+# this is a simple program that adds two numbers together and prompts the user to enter the numbers one at a time.
+
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-print("Hey you! Welcome to Python. I see you want to perform a calculation. Let's do this!")
+print("Hello there! Welcome to Python.")
+print("I see you want to add up two numbers.")
+print("Let's do this!")
 
 First_num = input("Enter First Number: ")
 Second_num = input("Enter Second Number: ")
